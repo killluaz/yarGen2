@@ -12,6 +12,15 @@
   See this post for details: anubiscybersecurity.xyz/blog/yarGen2.0)
 ------------------------------------------------------------------------
 
+                   _____
+    __ _____ _____/ ___/__ ___
+   / // / _ `/ __/ (_ / -_) _ \
+   \_, /\_,_/_/  \___/\__/_//_/
+  /___/  Yara Rule Generator
+         Florian Roth, July 2020, Version 0.23.2
+
+  Note: Rules have to be post-processed
+  See this post for details: https://medium.com/@cyb3rops/121d29322282
 
 ###  Que hay de nuevo en yaraGen2.0 ### 
 
