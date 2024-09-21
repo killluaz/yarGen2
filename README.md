@@ -1,4 +1,6 @@
+
 # yarGen2.0
+<pre>
 ------------------------------------------------------------------------
  __   __          _____            ___   ___
  \ \ / /__ _ _ __/ ____|__ _ __   |_  | / _ \
@@ -12,7 +14,7 @@
   Note: Rules have to be post-processed
   See this post for details: anubiscybersecurity.xyz/blog/yarGen2.0)
 ------------------------------------------------------------------------
-
+<pre>
 ###  Que hay de nuevo en yaraGen2.0 ### 
 
 ### Optimización de rendimiento:
