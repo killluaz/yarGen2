@@ -1,14 +1,15 @@
 ------------------------------------------------------------------------
-                   _____            ___   ___
-    __ _____ _____/ ___/__ ___     |_  | / _ \
-   / // / _ `/ __/ (_ / -_) _ \   / __/_/ // /
-   \_, /\_,_/_/  \___/\__/_//_/  /____(_)___/ 
-  /___/  Yara Rule Generator
-         by killuaz Version 2.0
-         Based on the original work by Florian Roth
-   
+ __   __          _____            ___   ___
+ \ \ / /__ _ _ __/ ____|__ _ __   |_  | / _ \
+  \ V / _ \ '__| |  _| _ \ '_ \   / __/_/ // /
+   | |  __/ |  | |_| |  __/ | | | /____(_)___/ 
+   |_|\___|_|   \____|\___|_| |_|
+         Yara Rule Generator
+         by killuaz , Version 2.0
+        Based on the original work by Florian Roth
+
   Note: Rules have to be post-processed
-  See this post for details: https://www.anubiscybersecurity.xyz/post/yarGen2.0
+  See this post for details: anubiscybersecurity.xyz/blog/yarGen2.0)
 ------------------------------------------------------------------------
 
 
