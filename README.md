@@ -17,10 +17,11 @@
 <pre>
 
 
-🚀 Novedades en YaraGen 2.0
-🔥 Mejoras Revolucionarias
-🏎️ Optimización de Rendimiento
-Procesamiento Paralelo
+#🚀 Novedades en YaraGen 2.0
+#🔥 Mejoras Revolucionarias
+ 
+##🏎️ Optimización de Rendimiento
+###Procesamiento Paralelo
 
 🚄 Implementación de procesamiento paralelo para análisis de archivos
 🔧 Nueva función parse_sample_dir con multiprocesamiento
