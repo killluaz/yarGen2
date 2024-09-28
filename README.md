@@ -16,69 +16,71 @@
 ------------------------------------------------------------------------
 <pre>
 
+<div style="line-height: 1.3;">
 
-<h1>🚀 Novedades en YaraGen 2.0</h1>
+<h1 style="margin-bottom: 10px;">🚀 Novedades en YaraGen 2.0</h1>
 
-<h2>🔥 Mejoras Revolucionarias</h2>
+<h2 style="margin-top: 20px; margin-bottom: 10px;">🔥 Mejoras Revolucionarias</h2>
 
-<h3>🏎️ Optimización de Rendimiento</h3>
-<ul>
+<h3 style="margin-top: 15px; margin-bottom: 5px;">🏎️ Optimización de Rendimiento</h3>
+<ul style="margin-top: 5px; margin-bottom: 10px; padding-left: 20px;">
   <li>🚄 Implementación de <strong>procesamiento paralelo</strong> para análisis de archivos</li>
   <li>🔧 Nueva función <code>parse_sample_dir</code> con multiprocesamiento</li>
   <li>🧰 Función <code>process_file</code> para manejo individual de archivos</li>
 </ul>
 
-<h3>🎯 Creación de Reglas YARA Mejorada</h3>
-<ul>
+<h3 style="margin-top: 15px; margin-bottom: 5px;">🎯 Creación de Reglas YARA Mejorada</h3>
+<ul style="margin-top: 5px; margin-bottom: 10px; padding-left: 20px;">
   <li>🏅 Sistema de puntuación sofisticado para cadenas</li>
   <li>🔢 Función <code>get_rule_strings</code> actualizada con ordenamiento por puntuación</li>
   <li>🧠 Nuevas funciones <code>score_string</code> y <code>calculate_entropy</code> para evaluación de cadenas</li>
 </ul>
 
-<h3>📊 Estructuras de Datos Optimizadas</h3>
-<ul>
+<h3 style="margin-top: 15px; margin-bottom: 5px;">📊 Estructuras de Datos Optimizadas</h3>
+<ul style="margin-top: 5px; margin-bottom: 10px; padding-left: 20px;">
   <li>🗃️ Uso de <code>defaultdict</code> para gestión simplificada de estadísticas</li>
   <li>🔡 Mejora en el manejo de cadenas UTF-16 y codificación base64</li>
 </ul>
 
-<h3>💻 Manejo de Opcodes Potenciado</h3>
-<ul>
+<h3 style="margin-top: 15px; margin-bottom: 5px;">💻 Manejo de Opcodes Potenciado</h3>
+<ul style="margin-top: 5px; margin-bottom: 10px; padding-left: 20px;">
   <li>🔗 Integración de opcodes en la generación de reglas</li>
   <li>🔄 Adaptación de <code>get_rule_strings</code> para incluir opcodes</li>
 </ul>
 
-<h3>🛠️ Flexibilidad de Código Mejorada</h3>
-<ul>
+<h3 style="margin-top: 15px; margin-bottom: 5px;">🛠️ Flexibilidad de Código Mejorada</h3>
+<ul style="margin-top: 5px; margin-bottom: 10px; padding-left: 20px;">
   <li>🔍 Nueva función <code>is_fullword</code> para detección dinámica de palabras completas</li>
   <li>🔀 Soporte para listas y diccionarios de elementos de cadena</li>
 </ul>
 
-<h3>⚙️ Generación de Reglas Optimizada</h3>
-<ul>
+<h3 style="margin-top: 15px; margin-bottom: 5px;">⚙️ Generación de Reglas Optimizada</h3>
+<ul style="margin-top: 5px; margin-bottom: 10px; padding-left: 20px;">
   <li>🎚️ Limitación inteligente del número de cadenas por regla</li>
   <li>🏷️ Diferenciación entre cadenas de alta puntuación ($x) y normales ($s)</li>
 </ul>
 
-<h3>🛡️ Manejo de Errores y Logging Reforzado</h3>
-<ul>
+<h3 style="margin-top: 15px; margin-bottom: 5px;">🛡️ Manejo de Errores y Logging Reforzado</h3>
+<ul style="margin-top: 5px; margin-bottom: 10px; padding-left: 20px;">
   <li>🚨 Sistema robusto de manejo de excepciones</li>
   <li>📝 Logging detallado para facilitar la depuración</li>
 </ul>
 
-<h2>💡 Impacto</h2>
+<h2 style="margin-top: 20px; margin-bottom: 10px;">💡 Impacto</h2>
 
-<p>Estas mejoras revolucionarias están diseñadas para:</p>
-<ul>
+<p style="margin-bottom: 5px;">Estas mejoras revolucionarias están diseñadas para:</p>
+<ul style="margin-top: 5px; margin-bottom: 10px; padding-left: 20px;">
   <li>🚀 Aumentar drásticamente la eficiencia en el procesamiento de archivos</li>
   <li>🎯 Mejorar significativamente la calidad de las reglas YARA generadas</li>
   <li>🔧 Hacer que YaraGen 2.0 sea más robusto y adaptable a diversos escenarios</li>
 </ul>
 
-<h4>¡Descubre el poder de YaraGen 2.0 y lleva tu análisis de malware al siguiente nivel! 🦠🔍</h4>
+<h4 style="margin-top: 15px;">¡Descubre el poder de YaraGen 2.0 y lleva tu análisis de malware al siguiente nivel! 🦠🔍</h4>
+
+</div>
 
 <h2>🔧 Parametros de linea de comandos<h2>
 
-```
 uso: yarGen.py [-h] [-m M] [-y min-size] [-z min-score] [-x high-scoring]
                  [-w superrule-overlap] [-s max-size] [-rc maxstrings]
                  [--excludegood] [-o output_rule_file] [-e output_dir_strings]
