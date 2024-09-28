@@ -17,64 +17,66 @@
 <pre>
 
 
-#🚀 Novedades en YaraGen 2.0
-#🔥 Mejoras Revolucionarias
- 
-##🏎️ Optimización de Rendimiento
-###Procesamiento Paralelo
+<h1>🚀 Novedades en YaraGen 2.0</h1>
 
-🚄 Implementación de procesamiento paralelo para análisis de archivos
-🔧 Nueva función parse_sample_dir con multiprocesamiento
-🧰 Función process_file para manejo individual de archivos
+<h2>🔥 Mejoras Revolucionarias</h2>
 
-🎯 Creación de Reglas YARA Mejorada
-Sistema de Puntuación Avanzado
+<h3>🏎️ Optimización de Rendimiento</h3>
+<ul>
+  <li>🚄 Implementación de <strong>procesamiento paralelo</strong> para análisis de archivos</li>
+  <li>🔧 Nueva función <code>parse_sample_dir</code> con multiprocesamiento</li>
+  <li>🧰 Función <code>process_file</code> para manejo individual de archivos</li>
+</ul>
 
-🏅 Sistema de puntuación sofisticado para cadenas
-🔢 Función get_rule_strings actualizada con ordenamiento por puntuación
-🧠 Nuevas funciones score_string y calculate_entropy para evaluación de cadenas
+<h3>🎯 Creación de Reglas YARA Mejorada</h3>
+<ul>
+  <li>🏅 Sistema de puntuación sofisticado para cadenas</li>
+  <li>🔢 Función <code>get_rule_strings</code> actualizada con ordenamiento por puntuación</li>
+  <li>🧠 Nuevas funciones <code>score_string</code> y <code>calculate_entropy</code> para evaluación de cadenas</li>
+</ul>
 
-📊 Estructuras de Datos Optimizadas
-Gestión Eficiente de Datos
+<h3>📊 Estructuras de Datos Optimizadas</h3>
+<ul>
+  <li>🗃️ Uso de <code>defaultdict</code> para gestión simplificada de estadísticas</li>
+  <li>🔡 Mejora en el manejo de cadenas UTF-16 y codificación base64</li>
+</ul>
 
-🗃️ Uso de defaultdict para gestión simplificada de estadísticas
-🔡 Mejora en el manejo de cadenas UTF-16 y codificación base64
+<h3>💻 Manejo de Opcodes Potenciado</h3>
+<ul>
+  <li>🔗 Integración de opcodes en la generación de reglas</li>
+  <li>🔄 Adaptación de <code>get_rule_strings</code> para incluir opcodes</li>
+</ul>
 
-💻 Manejo de Opcodes Potenciado
-Integración Avanzada
+<h3>🛠️ Flexibilidad de Código Mejorada</h3>
+<ul>
+  <li>🔍 Nueva función <code>is_fullword</code> para detección dinámica de palabras completas</li>
+  <li>🔀 Soporte para listas y diccionarios de elementos de cadena</li>
+</ul>
 
-🔗 Integración de opcodes en la generación de reglas
-🔄 Adaptación de get_rule_strings para incluir opcodes
+<h3>⚙️ Generación de Reglas Optimizada</h3>
+<ul>
+  <li>🎚️ Limitación inteligente del número de cadenas por regla</li>
+  <li>🏷️ Diferenciación entre cadenas de alta puntuación ($x) y normales ($s)</li>
+</ul>
 
-🛠️ Flexibilidad de Código Mejorada
-Adaptabilidad Dinámica
+<h3>🛡️ Manejo de Errores y Logging Reforzado</h3>
+<ul>
+  <li>🚨 Sistema robusto de manejo de excepciones</li>
+  <li>📝 Logging detallado para facilitar la depuración</li>
+</ul>
 
-🔍 Nueva función is_fullword para detección dinámica de palabras completas
-🔀 Soporte para listas y diccionarios de elementos de cadena
+<h2>💡 Impacto</h2>
 
-⚙️ Generación de Reglas Optimizada
-Calidad y Precisión Mejoradas
+<p>Estas mejoras revolucionarias están diseñadas para:</p>
+<ul>
+  <li>🚀 Aumentar drásticamente la eficiencia en el procesamiento de archivos</li>
+  <li>🎯 Mejorar significativamente la calidad de las reglas YARA generadas</li>
+  <li>🔧 Hacer que YaraGen 2.0 sea más robusto y adaptable a diversos escenarios</li>
+</ul>
 
-🎚️ Limitación inteligente del número de cadenas por regla
-🏷️ Diferenciación entre cadenas de alta puntuación ($x) y normales ($s)
+<h4>¡Descubre el poder de YaraGen 2.0 y lleva tu análisis de malware al siguiente nivel! 🦠🔍</h4>
 
-🛡️ Manejo de Errores y Logging Reforzado
-Robustez y Depuración Mejoradas
-
-🚨 Sistema robusto de manejo de excepciones
-📝 Logging detallado para facilitar la depuración
-
-💡 Impacto
-Estas mejoras revolucionarias están diseñadas para:
-
-🚀 Aumentar drásticamente la eficiencia en el procesamiento de archivos
-🎯 Mejorar significativamente la calidad de las reglas YARA generadas
-🔧 Hacer que YaraGen 2.0 sea más robusto y adaptable a diversos escenarios
-
-¡Descubre el poder de YaraGen 2.0 y lleva tu análisis de malware al siguiente nivel! 🦠🔍
-
-
-🔧 Parametros de linea de comandos
+<h2>🔧 Parametros de linea de comandos<h2>
 
 ```
 uso: yarGen.py [-h] [-m M] [-y min-size] [-z min-score] [-x high-scoring]
