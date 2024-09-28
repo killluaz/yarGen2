@@ -20,38 +20,45 @@
 🚀 Novedades en YaraGen 2.0
 🔥 Mejoras Revolucionarias
 🏎️ Optimización de Rendimiento
+Procesamiento Paralelo
 
 🚄 Implementación de procesamiento paralelo para análisis de archivos
 🔧 Nueva función parse_sample_dir con multiprocesamiento
 🧰 Función process_file para manejo individual de archivos
 
 🎯 Creación de Reglas YARA Mejorada
+Sistema de Puntuación Avanzado
 
 🏅 Sistema de puntuación sofisticado para cadenas
 🔢 Función get_rule_strings actualizada con ordenamiento por puntuación
 🧠 Nuevas funciones score_string y calculate_entropy para evaluación de cadenas
 
 📊 Estructuras de Datos Optimizadas
+Gestión Eficiente de Datos
 
 🗃️ Uso de defaultdict para gestión simplificada de estadísticas
 🔡 Mejora en el manejo de cadenas UTF-16 y codificación base64
 
 💻 Manejo de Opcodes Potenciado
+Integración Avanzada
 
 🔗 Integración de opcodes en la generación de reglas
 🔄 Adaptación de get_rule_strings para incluir opcodes
 
 🛠️ Flexibilidad de Código Mejorada
+Adaptabilidad Dinámica
 
 🔍 Nueva función is_fullword para detección dinámica de palabras completas
 🔀 Soporte para listas y diccionarios de elementos de cadena
 
 ⚙️ Generación de Reglas Optimizada
+Calidad y Precisión Mejoradas
 
 🎚️ Limitación inteligente del número de cadenas por regla
 🏷️ Diferenciación entre cadenas de alta puntuación ($x) y normales ($s)
 
 🛡️ Manejo de Errores y Logging Reforzado
+Robustez y Depuración Mejoradas
 
 🚨 Sistema robusto de manejo de excepciones
 📝 Logging detallado para facilitar la depuración
