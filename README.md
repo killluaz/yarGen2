@@ -112,9 +112,6 @@ Rule Output:
   -o output_rule_file   Output rule file
   -e output_dir_strings
                         Output directory for string exports
-  -a author             Author Name
-  -r ref                Reference (can be string or text file)
-  -l lic                License
   -p prefix             Prefix for the rule description
   -b identifier         Text file from which the identifier is read (default:
                         last folder name in the full path, e.g. "myRAT" if -m
