@@ -14,6 +14,14 @@
   Note: Rules have to be post-processed
   See this post for details: anubiscybersecurity.xyz/blog/yarGen2.0)
 ------------------------------------------------------------------------
+
+pip install --break-system-packages life
+pip install  --break-system-packages pefile
+pip install  --break-system-packages colorama
+pip install  --break-system-packages psutil
+
+python yarGen.py --update
+ 
 <pre>
 
 <div style="line-height: 1.3;">
